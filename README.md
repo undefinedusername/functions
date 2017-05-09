@@ -7,7 +7,7 @@ add this code to your html header
 <script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/CreateMenu.js"></script>
 <script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/audio.js"></script>
 <script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/refresh.js"></script>
-<script src=" "></script>
+<script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/download.js"></script>
 </head>
 ```
 ## use this to call the functions:
@@ -30,6 +30,7 @@ refresh() /*reloads the page*/
 var music = new sound('music/example.mp3');
 music.play(); /* plays music */
 music.stop(); /* stops music */
-
+/* download(text, name, type) */
+download("sample text","readme.txt",'text/plain'); /* downloads a text doc with the contents "sample text" */
 ```
 A place to put my random code.
