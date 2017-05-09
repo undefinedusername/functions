@@ -5,6 +5,9 @@ add this code to your html header
 <head>
 <script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/openurl.js"></script>
 <script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/CreateMenu.js"></script>
+<script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/audio.js"></script>
+<script src="https://raw.githubusercontent.com/undefinedusername/functions/master/javascript/refresh.js"></script>
+<script src=" "></script>
 </head>
 ```
 ## use this to call the functions:
@@ -22,6 +25,11 @@ MenuA.setstyle("style"); /* sets the style TODO */
 MenuA.getid(); /* gets the id of the menu */
 MenuA.gettype(); /* TODO */
 MenuA.isActive(); /* returns if active */
+refresh() /*reloads the page*/
+/* sound(src) */
+var music = new sound('music/example.mp3');
+music.play(); /* plays music */
+music.stop(); /* stops music */
 
 ```
 A place to put my random code.
