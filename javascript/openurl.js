@@ -17,5 +17,8 @@ if(urltype=="external" || urltype=="internet" || urltype=="https" || urltype==1 
 window.open("https://"+this.url,this.name,"toolbar="+this.tb+",scrollbars="+this.sb+",resizeable="+this.rz+",top="+this.top+",left="+this.left+",width="+this.width+",height="+this.height);
 }else if(urltype=="internal" || urltype=="local" || urltype=="file" || urltype==0 || urltype==false){
 window.open(this.url,this.name,"toolbar="+this.tb+",scrollbars="+this.sb+",resizeable="+this.rz+",top="+this.top+",left="+this.left+",width="+this.width+",height="+this.height);
+}else{
+console.log("Error! urltype is invalid!");
+return false;
 }
 }
